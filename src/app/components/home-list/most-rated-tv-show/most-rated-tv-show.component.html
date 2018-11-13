@@ -1,0 +1,8 @@
+<p class="subtitle pb-3 border-bottom">
+    MostRatedTvShow:
+</p>
+<ul class="list-unstyled">
+    <li *ngFor="let item of list" class="hover-li m-2">
+        <a [routerLink]="['/ShowDetail', item.id]" class="customer"> {{item.original_name}} </a>
+    </li>
+</ul>

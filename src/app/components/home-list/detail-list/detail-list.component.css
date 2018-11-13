@@ -1,0 +1,25 @@
+.title{
+    font-size: 30px;
+}
+
+.subtitle{
+    font-size: 25px;
+}
+
+.customer{
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px grey;
+    background: #6200EE;
+}
+
+.costumer1{
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px black;
+    color: #03DAC5;
+    background: #3700B6;
+}
+
+.costumer2{
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px black;
+}

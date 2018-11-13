@@ -1,0 +1,38 @@
+
+<div class="row p-3 m-4 customer">
+  <div class="col-md-3 pb-3 mx-auto my-auto">
+    <div class="row">
+      <a class="title m-3 p-2 pb-1"> {{values.name}} </a>
+    </div>  
+    <img src="https://image.tmdb.org/t/p/w342/{{values.backdrop_path}}" class="costumer2"/>
+  </div>
+  <div class="col-md-5 my-auto mx-auto">
+    <div class="row justify-content-center">
+        <p class="subtitle"> Informazioni: </p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-3 m-3 p-1 text-center costumer1">
+        <a> Popolarita': {{values.popularity}} </a>
+      </div>
+      <div class="col-md-3 m-3 p-1 text-center costumer1">
+        <a> lingua: {{values.languages}} </a>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-3 m-3 p-1 text-center costumer1">
+        <a> Episodi: {{values.number_of_episodes}} </a>
+      </div>
+      <div class="col-md-3 m-3 p-1 text-center costumer1">
+        <a> Stagioni: {{values.number_of_seasons}} </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 m-3 p-1">
+    <div class="row">
+        <p class="subtitle"> Trama: </p>
+    </div>
+    <div class="row costumer1 p-2">
+      <a> {{values.overview}} </a>
+    </div>
+  </div>
+</div>
